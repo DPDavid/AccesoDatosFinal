@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libreria>
+    <Libros>
+        <Libro>
+            <Titulo>Don Quijote de la Mancha</Titulo>
+            <Autor>Miguel de Cervantes</Autor>
+            <Genero>Novela</Genero>
+            <Precio>19.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Principito</Titulo>
+            <Autor>Antoine de Saint-Exupéry</Autor>
+            <Genero>Fábula</Genero>
+            <Precio>15.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Cien Años de Soledad</Titulo>
+            <Autor>Gabriel García Márquez</Autor>
+            <Genero>Realismo Mágico</Genero>
+            <Precio>22.50</Precio>
+        </Libro>
+                <Libro>
+            <Titulo>El Señor de los Anillos: La Comunidad del Anillo</Titulo>
+            <Autor>J.R.R. Tolkien</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>25.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Harry Potter y la Piedra Filosofal</Titulo>
+            <Autor>J.K. Rowling</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>18.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>1984</Titulo>
+            <Autor>George Orwell</Autor>
+            <Genero>Distopía</Genero>
+            <Precio>12.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Orgullo y Prejuicio</Titulo>
+            <Autor>Jane Austen</Autor>
+            <Genero>Romántico</Genero>
+            <Precio>14.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Hobbit</Titulo>
+            <Autor>J.R.R. Tolkien</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>16.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Fahrenheit 451</Titulo>
+            <Autor>Ray Bradbury</Autor>
+            <Genero>Ficción científica</Genero>
+            <Precio>13.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>La Sombra del Viento</Titulo>
+            <Autor>Carlos Ruiz Zafón</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>20.00</Precio>
+        </Libro>
+    </Libros>
+</Libreria>
