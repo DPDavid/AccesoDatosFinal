@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libreria>
+    <Libros>
+        <Libro>
+            <Titulo>Harry Potter y la Piedra Filosofal</Titulo>
+            <Autor>J.K. Rowling</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>15.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Señor de los Anillos</Titulo>
+            <Autor>J.R.R. Tolkien</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>25.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Las Crónicas de Narnia: El León, la Bruja y el Ropero</Titulo>
+            <Autor>C.S. Lewis</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>18.75</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Eragon</Titulo>
+            <Autor>Christopher Paolini</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>20.00</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>La Historia Interminable</Titulo>
+            <Autor>Michael Ende</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>19.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Nombre del Viento</Titulo>
+            <Autor>Patrick Rothfuss</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>22.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Alicia en el País de las Maravillas</Titulo>
+            <Autor>Lewis Carroll</Autor>
+            <Genero>Fantasía</Genero>
+            <Precio>14.50</Precio>
+        </Libro>
+    </Libros>
+</Libreria>

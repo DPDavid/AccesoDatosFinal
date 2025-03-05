@@ -12,6 +12,7 @@ import java.util.List;
 public class Libreria {
     private ClientSession session;
 
+    //Conexion a la base de datos (libreria)
     public Libreria() {
         try {
             this.session = new ClientSession("localhost", 1984, "David", "David");
@@ -22,6 +23,7 @@ public class Libreria {
         }
     }
 
+    //Metodo para ejecutar las consultas xquery
     public String ejecutarConsulta(String xquery) {
         try {
             ClientQuery query = session.query(xquery);
@@ -34,6 +36,7 @@ public class Libreria {
         }
     }
 
+    //Metodo para insertar libros en una coleccion XML
     public void insertarLibro(String nombreColeccion, String libroXML) {
         try {
             String xquery = "let $doc := doc('libreria/" + nombreColeccion.trim() + "') " +
@@ -47,9 +50,12 @@ public class Libreria {
         }
     }
 
+    //Metodo para actualizar el precio de un libro en una coleccion XML
     public void actualizarPrecio(String nombreColeccion, String titulo, double nuevoPrecio) {
         try {
-            String xquery = "let $doc := doc('libreria/"+nombreColeccion.trim()+"') return replace value of node /Libreria/Libros/Libro[Titulo='" + titulo + "']/Precio with '" + nuevoPrecio + "'";
+            String xquery = "let $doc := doc('libreria/" + nombreColeccion.trim() + "') " +
+                    "return replace value of node $doc/Libreria/Libros/Libro[Titulo='" + titulo + "']/Precio " +
+                    "with '" + nuevoPrecio + "'";
             ejecutarConsulta(xquery);
             mostrarAlerta("Éxito", "Libro actualizado correctamente.", Alert.AlertType.INFORMATION);
         } catch (Exception e) {
@@ -58,6 +64,7 @@ public class Libreria {
         }
     }
 
+    //Metodo para eliminar un libro en una coleccion XML
     public void eliminarLibro(String nombreColeccion, String titulo) {
         try {
             String xquery = "let $doc := doc('libreria/" + nombreColeccion.trim() + "') " +
@@ -70,12 +77,14 @@ public class Libreria {
         }
     }
 
+    //Metodo para listar libros de una coleccion XML
     public String listarLibros(String nombreColeccion) {
         String xquery = "for $libro in doc('libreria/" + nombreColeccion.trim() + "')/Libreria/Libros/Libro " +
                 "return concat('Título: ', $libro/Titulo, ', Autor: ', $libro/Autor, ', Género: ', $libro/Genero, ', Precio: ', $libro/Precio)";
         return ejecutarConsulta(xquery);
     }
 
+    //Metodo para agregar una coleccion XML a la base de datos
     public void agregarDocumentoAColeccion(String nombreColeccion, String archivoXML) {
         try {
             String xquery = "ADD TO " + nombreColeccion+ " "+ archivoXML;
@@ -86,6 +95,7 @@ public class Libreria {
         }
     }
 
+    //Metodo para eliminar una coleccion XML de la base de datos
     public void eliminarColeccion(String nombreDocumento) {
         try {
             String comando = "DELETE " + nombreDocumento;
@@ -96,6 +106,7 @@ public class Libreria {
         }
     }
 
+    //Metodo para adquirir todas las colecciones de la base de datos
     public List<String> obtenerColecciones() {
         List<String> colecciones = new ArrayList<>();
         try {
@@ -111,7 +122,7 @@ public class Libreria {
         return colecciones;
     }
 
-
+    //Metodo para mostrar las alertas que salen por pantalla
     private void mostrarAlerta(String titulo, String mensaje, Alert.AlertType tipo) {
         Alert alerta = new Alert(tipo);
         alerta.setTitle(titulo);
@@ -120,6 +131,7 @@ public class Libreria {
         alerta.showAndWait();
     }
 
+    //Metodo para cerra la conxion a base de datos
     public void cerrarConexion() {
         if (session != null) {
             try {

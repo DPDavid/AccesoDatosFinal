@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libreria>
+    <Libros>
+        <Libro>
+            <Titulo>1984</Titulo>
+            <Autor>George Orwell</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>16.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Dune</Titulo>
+            <Autor>Frank Herbert</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>23.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Fundación</Titulo>
+            <Autor>Isaac Asimov</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>21.00</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Neuromante</Titulo>
+            <Autor>William Gibson</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>18.75</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El fin de la eternidad</Titulo>
+            <Autor>Isaac Asimov</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>19.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>La guerra de los mundos</Titulo>
+            <Autor>H.G. Wells</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>17.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Snow Crash</Titulo>
+            <Autor>Neal Stephenson</Autor>
+            <Genero>Ciencia Ficción</Genero>
+            <Precio>20.25</Precio>
+        </Libro>
+    </Libros>
+</Libreria>

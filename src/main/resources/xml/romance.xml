@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libreria>
+    <Libros>
+        <Libro>
+            <Titulo>Orgullo y Prejuicio</Titulo>
+            <Autor>Jane Austen</Autor>
+            <Genero>Romance</Genero>
+            <Precio>14.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Romeo y Julieta</Titulo>
+            <Autor>William Shakespeare</Autor>
+            <Genero>Romance</Genero>
+            <Precio>13.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Bajo la Misma Estrella</Titulo>
+            <Autor>John Green</Autor>
+            <Genero>Romance</Genero>
+            <Precio>15.75</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Posdata: Te Amo</Titulo>
+            <Autor>Cecelia Ahern</Autor>
+            <Genero>Romance</Genero>
+            <Precio>18.00</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Los Puentes de Madison</Titulo>
+            <Autor>Robert James Waller</Autor>
+            <Genero>Romance</Genero>
+            <Precio>17.25</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Querido John</Titulo>
+            <Autor>Nicholas Sparks</Autor>
+            <Genero>Romance</Genero>
+            <Precio>16.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Diario de Noa</Titulo>
+            <Autor>Nicholas Sparks</Autor>
+            <Genero>Romance</Genero>
+            <Precio>19.00</Precio>
+        </Libro>
+    </Libros>
+</Libreria>
