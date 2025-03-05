@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libreria>
+    <Libros>
+        <Libro>
+            <Titulo>La Sombra del Viento</Titulo>
+            <Autor>Carlos Ruiz Zafón</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>20.00</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El Código Da Vinci</Titulo>
+            <Autor>Dan Brown</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>18.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Los hombres que no amaban a las mujeres</Titulo>
+            <Autor>Stieg Larsson</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>22.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El psicoanalista</Titulo>
+            <Autor>John Katzenbach</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>19.75</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>La chica del tren</Titulo>
+            <Autor>Paula Hawkins</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>17.99</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>Antes de dormir</Titulo>
+            <Autor>S. J. Watson</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>16.50</Precio>
+        </Libro>
+        <Libro>
+            <Titulo>El silencio de los corderos</Titulo>
+            <Autor>Thomas Harris</Autor>
+            <Genero>Suspense</Genero>
+            <Precio>21.00</Precio>
+        </Libro>
+    </Libros>
+</Libreria>
